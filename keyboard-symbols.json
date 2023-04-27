@@ -1,0 +1,972 @@
+{
+  "row1": {
+    "key1": {
+      "language": {
+        "ru": {
+          "lowerCase": "ё",
+          "upperCase": "Ё",
+          "shift": "Ё"
+        },
+        "en": {
+          "lowerCase": "`",
+          "upperCase": "`",
+          "shift": "~"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key2": {
+      "language": {
+        "ru": {
+          "lowerCase": "1",
+          "upperCase": "1",
+          "shift": "!"
+        },
+        "en": {
+          "lowerCase": "1",
+          "upperCase": "1",
+          "shift": "!"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key3": {
+      "language": {
+        "ru": {
+          "lowerCase": "2",
+          "upperCase": "2",
+          "shift": "\""
+        },
+        "en": {
+          "lowerCase": "2",
+          "upperCase": "2",
+          "shift": "@"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key4": {
+      "language": {
+        "ru": {
+          "lowerCase": "3",
+          "upperCase": "3",
+          "shift": "№"
+        },
+        "en": {
+          "lowerCase": "3",
+          "upperCase": "3",
+          "shift": "#"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key5": {
+      "language": {
+        "ru": {
+          "lowerCase": "4",
+          "upperCase": "4",
+          "shift": ";"
+        },
+        "en": {
+          "lowerCase": "4",
+          "upperCase": "4",
+          "shift": "$"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key6": {
+      "language": {
+        "ru": {
+          "lowerCase": "5",
+          "upperCase": "5",
+          "shift": "%"
+        },
+        "en": {
+          "lowerCase": "5",
+          "upperCase": "5",
+          "shift": "%"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key7": {
+      "language": {
+        "ru": {
+          "lowerCase": "6",
+          "upperCase": "6",
+          "shift": ":"
+        },
+        "en": {
+          "lowerCase": "6",
+          "upperCase": "6",
+          "shift": "^"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key8": {
+      "language": {
+        "ru": {
+          "lowerCase": "7",
+          "upperCase": "7",
+          "shift": "?"
+        },
+        "en": {
+          "lowerCase": "7",
+          "upperCase": "7",
+          "shift": "&"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key9": {
+      "language": {
+        "ru": {
+          "lowerCase": "8",
+          "upperCase": "8",
+          "shift": "*"
+        },
+        "en": {
+          "lowerCase": "8",
+          "upperCase": "8",
+          "shift": "*"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key10": {
+      "language": {
+        "ru": {
+          "lowerCase": "9",
+          "upperCase": "9",
+          "shift": "("
+        },
+        "en": {
+          "lowerCase": "9",
+          "upperCase": "9",
+          "shift": "("
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key11": {
+      "language": {
+        "ru": {
+          "lowerCase": "0",
+          "upperCase": "0",
+          "shift": ")"
+        },
+        "en": {
+          "lowerCase": "0",
+          "upperCase": "0`",
+          "shift": ")"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key12": {
+      "language": {
+        "ru": {
+          "lowerCase": "-",
+          "upperCase": "-",
+          "shift": "_"
+        },
+        "en": {
+          "lowerCase": "-",
+          "upperCase": "-",
+          "shift": "_"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key13": {
+      "language": {
+        "ru": {
+          "lowerCase": "=",
+          "upperCase": "=",
+          "shift": "+"
+        },
+        "en": {
+          "lowerCase": "=",
+          "upperCase": "=",
+          "shift": "+"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key14": {
+      "language": {
+        "ru": {
+          "lowerCase": "Backspace",
+          "upperCase": "Backspace",
+          "shift": "Backspace"
+        },
+        "en": {
+          "lowerCase": "Backspace",
+          "upperCase": "Backspace",
+          "shift": "Backspace"
+        }
+      },
+      "classes": ["keyboard__key", "key", "key_size_middle","key_color_pink"]
+    }
+  },
+  "row2": {
+    "key1": {
+      "language": {
+        "ru": {
+          "lowerCase": "Tab",
+          "upperCase": "Tab",
+          "shift": "Tab"
+        },
+        "en": {
+          "lowerCase": "Tab",
+          "upperCase": "Tab",
+          "shift": "Tab"
+        }
+      },
+      "classes": ["keyboard__key", "key", "key_size_small", "key_color_pink"]
+    },
+    "key2": {
+      "language": {
+        "ru": {
+          "lowerCase": "й",
+          "upperCase": "Й",
+          "shift": "Й"
+        },
+        "en": {
+          "lowerCase": "q",
+          "upperCase": "Q",
+          "shift": "Q"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key3": {
+      "language": {
+        "ru": {
+          "lowerCase": "ц",
+          "upperCase": "Ц",
+          "shift": "Ц"
+        },
+        "en": {
+          "lowerCase": "w",
+          "upperCase": "W",
+          "shift": "W"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key4": {
+      "language": {
+        "ru": {
+          "lowerCase": "у",
+          "upperCase": "У",
+          "shift": "У"
+        },
+        "en": {
+          "lowerCase": "e",
+          "upperCase": "E",
+          "shift": "E"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key5": {
+      "language": {
+        "ru": {
+          "lowerCase": "к",
+          "upperCase": "К",
+          "shift": "К"
+        },
+        "en": {
+          "lowerCase": "r",
+          "upperCase": "R",
+          "shift": "R"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key6": {
+      "language": {
+        "ru": {
+          "lowerCase": "е",
+          "upperCase": "е",
+          "shift": "Е"
+        },
+        "en": {
+          "lowerCase": "t",
+          "upperCase": "T",
+          "shift": "T"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key7": {
+      "language": {
+        "ru": {
+          "lowerCase": "н",
+          "upperCase": "н",
+          "shift": "Н"
+        },
+        "en": {
+          "lowerCase": "y",
+          "upperCase": "Y",
+          "shift": "Y"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key8": {
+      "language": {
+        "ru": {
+          "lowerCase": "г",
+          "upperCase": "Г",
+          "shift": "Г"
+        },
+        "en": {
+          "lowerCase": "u",
+          "upperCase": "U",
+          "shift": "U"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key9": {
+      "language": {
+        "ru": {
+          "lowerCase": "ш",
+          "upperCase": "Ш",
+          "shift": "Ш"
+        },
+        "en": {
+          "lowerCase": "i",
+          "upperCase": "I",
+          "shift": "I"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key10": {
+      "language": {
+        "ru": {
+          "lowerCase": "щ",
+          "upperCase": "Щ",
+          "shift": "Щ"
+        },
+        "en": {
+          "lowerCase": "o",
+          "upperCase": "O",
+          "shift": "O"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key11": {
+      "language": {
+        "ru": {
+          "lowerCase": "з",
+          "upperCase": "З",
+          "shift": "З"
+        },
+        "en": {
+          "lowerCase": "p",
+          "upperCase": "P",
+          "shift": "P"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key12": {
+      "language": {
+        "ru": {
+          "lowerCase": "х",
+          "upperCase": "Х",
+          "shift": "Х"
+        },
+        "en": {
+          "lowerCase": "[",
+          "upperCase": "[",
+          "shift": "{"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key13": {
+      "language": {
+        "ru": {
+          "lowerCase": "ъ",
+          "upperCase": "Ъ",
+          "shift": "Ъ"
+        },
+        "en": {
+          "lowerCase": "]",
+          "upperCase": "]",
+          "shift": "}"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key14": {
+      "language": {
+        "ru": {
+          "lowerCase": "\\",
+          "upperCase": "\\",
+          "shift": "\/"
+        },
+        "en": {
+          "lowerCase": "\\",
+          "upperCase": "\\",
+          "shift": "|"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key15": {
+      "language": {
+        "ru": {
+          "lowerCase": "Del",
+          "upperCase": "Del",
+          "shift": "Del"
+        },
+        "en": {
+          "lowerCase": "Del",
+          "upperCase": "Del",
+          "shift": "Del"
+        }
+      },
+      "classes": ["keyboard__key", "key", "key_size_small", "key_color_pink"]
+    }
+  },
+  "row3": {
+    "key1": {
+      "language": {
+        "ru": {
+          "lowerCase": "Caps",
+          "upperCase": "Caps",
+          "shift": "Caps"
+        },
+        "en": {
+          "lowerCase": "Caps",
+          "upperCase": "Caps",
+          "shift": "Caps"
+        }
+      },
+      "classes": ["keyboard__key", "key", "key_size_small", "key_color_pink"]
+    },
+    "key2": {
+      "language": {
+        "ru": {
+          "lowerCase": "ф",
+          "upperCase": "Ф",
+          "shift": "Ф"
+        },
+        "en": {
+          "lowerCase": "a",
+          "upperCase": "A",
+          "shift": "A"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key3": {
+      "language": {
+        "ru": {
+          "lowerCase": "ы",
+          "upperCase": "Ы",
+          "shift": "Ы"
+        },
+        "en": {
+          "lowerCase": "s",
+          "upperCase": "S",
+          "shift": "S"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key4": {
+      "language": {
+        "ru": {
+          "lowerCase": "в",
+          "upperCase": "В",
+          "shift": "В"
+        },
+        "en": {
+          "lowerCase": "d",
+          "upperCase": "D",
+          "shift": "D"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key5": {
+      "language": {
+        "ru": {
+          "lowerCase": "а",
+          "upperCase": "А",
+          "shift": "А"
+        },
+        "en": {
+          "lowerCase": "f",
+          "upperCase": "F",
+          "shift": "F"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key6": {
+      "language": {
+        "ru": {
+          "lowerCase": "п",
+          "upperCase": "П",
+          "shift": "П"
+        },
+        "en": {
+          "lowerCase": "g",
+          "upperCase": "G",
+          "shift": "G"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key7": {
+      "language": {
+        "ru": {
+          "lowerCase": "р",
+          "upperCase": "Р",
+          "shift": "Р"
+        },
+        "en": {
+          "lowerCase": "h",
+          "upperCase": "H",
+          "shift": "H"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key8": {
+      "language": {
+        "ru": {
+          "lowerCase": "о",
+          "upperCase": "О",
+          "shift": "О"
+        },
+        "en": {
+          "lowerCase": "j",
+          "upperCase": "J",
+          "shift": "J"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key9": {
+      "language": {
+        "ru": {
+          "lowerCase": "л",
+          "upperCase": "Л",
+          "shift": "Л"
+        },
+        "en": {
+          "lowerCase": "k",
+          "upperCase": "K",
+          "shift": "K"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key10": {
+      "language": {
+        "ru": {
+          "lowerCase": "д",
+          "upperCase": "Д",
+          "shift": "Д"
+        },
+        "en": {
+          "lowerCase": "l",
+          "upperCase": "L",
+          "shift": "L"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key11": {
+      "language": {
+        "ru": {
+          "lowerCase": "ж",
+          "upperCase": "Ж",
+          "shift": "Ж"
+        },
+        "en": {
+          "lowerCase": ";",
+          "upperCase": ";",
+          "shift": ":"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key12": {
+      "language": {
+        "ru": {
+          "lowerCase": "э",
+          "upperCase": "Э",
+          "shift": "Э"
+        },
+        "en": {
+          "lowerCase": "'",
+          "upperCase": "'",
+          "shift": "\""
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key13": {
+      "language": {
+        "ru": {
+          "lowerCase": "Enter",
+          "upperCase": "Enter",
+          "shift": "Enter"
+        },
+        "en": {
+          "lowerCase": "Enter",
+          "upperCase": "Enter",
+          "shift": "Enter"
+        }
+      },
+      "classes": ["keyboard__key", "key", "key_size_middle", "key_color_pink"]
+    }
+  },
+  "row4": {
+    "key1": {
+      "language": {
+        "ru": {
+          "lowerCase": "Shift",
+          "upperCase": "Shift",
+          "shift": "Shift"
+        },
+        "en": {
+          "lowerCase": "Shift",
+          "upperCase": "Shift",
+          "shift": "Shift"
+        }
+      },
+      "classes": ["keyboard__key", "key", "key_size_small", "key_color_pink"]
+    },
+    "key2": {
+      "language": {
+        "ru": {
+          "lowerCase": "я",
+          "upperCase": "Я",
+          "shift": "Я"
+        },
+        "en": {
+          "lowerCase": "z",
+          "upperCase": "Z",
+          "shift": "Z"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key3": {
+      "language": {
+        "ru": {
+          "lowerCase": "ч",
+          "upperCase": "Ч",
+          "shift": "Ч"
+        },
+        "en": {
+          "lowerCase": "x",
+          "upperCase": "X",
+          "shift": "X"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key4": {
+      "language": {
+        "ru": {
+          "lowerCase": "с",
+          "upperCase": "С",
+          "shift": "С"
+        },
+        "en": {
+          "lowerCase": "c",
+          "upperCase": "C",
+          "shift": "C"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key5": {
+      "language": {
+        "ru": {
+          "lowerCase": "м",
+          "upperCase": "М",
+          "shift": "М"
+        },
+        "en": {
+          "lowerCase": "v",
+          "upperCase": "V",
+          "shift": "V"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key6": {
+      "language": {
+        "ru": {
+          "lowerCase": "и",
+          "upperCase": "И",
+          "shift": "И"
+        },
+        "en": {
+          "lowerCase": "b",
+          "upperCase": "B",
+          "shift": "B"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key7": {
+      "language": {
+        "ru": {
+          "lowerCase": "т",
+          "upperCase": "Т",
+          "shift": "Т"
+        },
+        "en": {
+          "lowerCase": "n",
+          "upperCase": "N",
+          "shift": "N"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key8": {
+      "language": {
+        "ru": {
+          "lowerCase": "ь",
+          "upperCase": "Ь",
+          "shift": "Ь"
+        },
+        "en": {
+          "lowerCase": "m",
+          "upperCase": "M",
+          "shift": "M"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key9": {
+      "language": {
+        "ru": {
+          "lowerCase": "б",
+          "upperCase": "Б",
+          "shift": "Б"
+        },
+        "en": {
+          "lowerCase": ",",
+          "upperCase": ",",
+          "shift": "<"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key10": {
+      "language": {
+        "ru": {
+          "lowerCase": "ю",
+          "upperCase": "Ю",
+          "shift": "Ю"
+        },
+        "en": {
+          "lowerCase": ".",
+          "upperCase": ".",
+          "shift": ">"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key11": {
+      "language": {
+        "ru": {
+          "lowerCase": ".",
+          "upperCase": ".",
+          "shift": ","
+        },
+        "en": {
+          "lowerCase": "/",
+          "upperCase": "/",
+          "shift": "?"
+        }
+      },
+      "classes": ["keyboard__key", "key"]
+    },
+    "key12": {
+      "language": {
+        "ru": {
+          "lowerCase": "▲",
+          "upperCase": "▲",
+          "shift": "▲"
+        },
+        "en": {
+          "lowerCase": "▲",
+          "upperCase": "▲",
+          "shift": "▲"
+        }
+      },
+      "classes": ["keyboard__key", "key", "key_color_pink"]
+    },
+    "key13": {
+      "language": {
+        "ru": {
+          "lowerCase": "Shift",
+          "upperCase": "Shift",
+          "shift": "Shift"
+        },
+        "en": {
+          "lowerCase": "Shift",
+          "upperCase": "Shift",
+          "shift": "Shift"
+        }
+      },
+      "classes": ["keyboard__key", "key", "key_size_small", "key_color_pink"]
+    }
+  },
+  "row5": {
+    "key1": {
+      "language": {
+        "ru": {
+          "lowerCase": "Ctrl",
+          "upperCase": "Ctrl",
+          "shift": "Ctrl"
+        },
+        "en": {
+          "lowerCase": "Ctrl",
+          "upperCase": "Ctrl",
+          "shift": "Ctrl"
+        }
+      },
+      "classes": ["keyboard__key", "key", "key_color_pink"]
+    },
+    "key2": {
+      "language": {
+        "ru": {
+          "lowerCase": "Win",
+          "upperCase": "Win",
+          "shift": "Win"
+        },
+        "en": {
+          "lowerCase": "Win",
+          "upperCase": "Win",
+          "shift": "Win"
+        }
+      },
+      "classes": ["keyboard__key", "key", "key_color_pink"]
+    },
+    "key3": {
+      "language": {
+        "ru": {
+          "lowerCase": "Alt",
+          "upperCase": "Alt",
+          "shift": "Alt"
+        },
+        "en": {
+          "lowerCase": "Alt",
+          "upperCase": "Alt",
+          "shift": "Alt"
+        }
+      },
+      "classes": ["keyboard__key", "key", "key_color_pink"]
+    },
+    "key4": {
+      "language": {
+        "ru": {
+          "lowerCase": "",
+          "upperCase": "",
+          "shift": ""
+        },
+        "en": {
+          "lowerCase": "",
+          "upperCase": "",
+          "shift": ""
+        }
+      },
+      "classes": ["keyboard__key", "key", "key_size_large", "key_color_pink"]
+    },
+    "key5": {
+      "language": {
+        "ru": {
+          "lowerCase": "Alt",
+          "upperCase": "Alt",
+          "shift": "Alt"
+        },
+        "en": {
+          "lowerCase": "Alt",
+          "upperCase": "Alt",
+          "shift": "Alt"
+        }
+      },
+      "classes": ["keyboard__key", "key", "key_color_pink"]
+    },
+    "key6": {
+      "language": {
+        "ru": {
+          "lowerCase": "◄",
+          "upperCase": "◄",
+          "shift": "◄"
+        },
+        "en": {
+          "lowerCase": "◄",
+          "upperCase": "◄",
+          "shift": "◄"
+        }
+      },
+      "classes": ["keyboard__key", "key", "key_color_pink"]
+    },
+    "key7": {
+      "language": {
+        "ru": {
+          "lowerCase": "▼",
+          "upperCase": "▼",
+          "shift": "▼"
+        },
+        "en": {
+          "lowerCase": "▼",
+          "upperCase": "▼",
+          "shift": "▼"
+        }
+      },
+      "classes": ["keyboard__key", "key", "key_color_pink"]
+    },
+    "key8": {
+      "language": {
+        "ru": {
+          "lowerCase": "►",
+          "upperCase": "►",
+          "shift": "►"
+        },
+        "en": {
+          "lowerCase": "►",
+          "upperCase": "►",
+          "shift": "►"
+        }
+      },
+      "classes": ["keyboard__key", "key", "key_color_pink"]
+    },
+    "key9": {
+      "language": {
+        "ru": {
+          "lowerCase": "Ctrl",
+          "upperCase": "Ctrl",
+          "shift": "Ctrl"
+        },
+        "en": {
+          "lowerCase": "Ctrl",
+          "upperCase": "Ctrl",
+          "shift": "Ctrl"
+        }
+      },
+      "classes": ["keyboard__key", "key", "key_color_pink"]
+    }
+  }
+}

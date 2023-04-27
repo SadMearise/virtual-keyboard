@@ -1,0 +1,71 @@
+@use "sass:math";
+
+// Функции и переменные
+@import 'base/variables';
+@import 'base/functions';
+
+:root {
+  --index: calc(1vh + 1vw); // calc(var(--index) * 1);
+
+	// Шрифт по умолчанию
+	--fontFamily: "";
+
+	// font-weight. prefix: --fw-
+
+	// colors. prefix: --color-
+
+	// line-height. prefix: --lh-
+	
+	// letter-spacing. prefix: --ls-
+
+	// font-size. prefix: --fz-
+}
+
+$containerWidth: 1200;
+
+$containerPaddingDefault: 80;
+$containerSidePaddingDefault: math.div($containerPaddingDefault, 2);
+
+$containerPaddingL: 60;
+$containerSidePaddingM: math.div($containerPaddingL, 2);
+
+$containerPaddingM: 20;
+$containerSidePaddingXS: math.div($containerPaddingM, 2);
+
+// Обнуление, общие параметры
+@import 'base/reset';
+
+// Оболочка
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+// Основная сетка
+.container {
+	max-width: ($containerWidth + $containerPaddingDefault) + px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 ($containerSidePaddingDefault + px);
+
+	@media (max-width: em($breakpoint1280)) {
+		padding-left: ($containerSidePaddingM + px);
+		padding-right: ($containerSidePaddingM + px);
+	}
+	@media (max-width: em($breakpoint768)) {
+		padding-left: ($containerSidePaddingXS + px);
+		padding-right: ($containerSidePaddingXS + px);
+	}
+}
+
+.vertical-indent {
+	&_s {
+	}
+	&_m {
+	}
+	&_l {
+	}
+}

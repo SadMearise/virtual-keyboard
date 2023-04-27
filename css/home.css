@@ -1,0 +1,20 @@
+.keyboard {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.keyboard__body {
+  background-color: #eee;
+}
+.keyboard__row {
+  display: flex;
+}
+.key {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}

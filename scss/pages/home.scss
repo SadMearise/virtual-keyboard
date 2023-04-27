@@ -1,0 +1,31 @@
+@import '../base/variables';
+@import '../base/functions';
+
+.keyboard {
+  width: fit-content;
+  &__title {}
+
+  &__text-area {}
+
+  &__body {
+    
+    background-color: #eee;
+  }
+
+  &__row {
+    display: flex;
+  }
+
+  &__key {}
+}
+
+.key {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
