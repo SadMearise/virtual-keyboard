@@ -16,7 +16,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "Backquote"
     },
     "key2": {
       "language": {
@@ -34,7 +35,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "Digit1"
     },
     "key3": {
       "language": {
@@ -52,7 +54,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "Digit2"
     },
     "key4": {
       "language": {
@@ -70,7 +73,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "Digit3"
     },
     "key5": {
       "language": {
@@ -88,7 +92,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "Digit4"
     },
     "key6": {
       "language": {
@@ -106,7 +111,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "Digit5"
     },
     "key7": {
       "language": {
@@ -124,7 +130,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "Digit6"
     },
     "key8": {
       "language": {
@@ -142,7 +149,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "Digit7"
     },
     "key9": {
       "language": {
@@ -160,7 +168,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "Digit8"
     },
     "key10": {
       "language": {
@@ -178,7 +187,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "Digit9"
     },
     "key11": {
       "language": {
@@ -196,7 +206,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "Digit0"
     },
     "key12": {
       "language": {
@@ -214,7 +225,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "Minus"
     },
     "key13": {
       "language": {
@@ -232,7 +244,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "Equal"
     },
     "key14": {
       "language": {
@@ -252,7 +265,8 @@
         "key",
         "key_size_middle",
         "key_color_pink"
-      ]
+      ],
+      "dataAttribute": "Backspace"
     }
   },
   "row2": {
@@ -274,7 +288,8 @@
         "key",
         "key_size_small",
         "key_color_pink"
-      ]
+      ],
+      "dataAttribute": "Tab"
     },
     "key2": {
       "language": {
@@ -292,7 +307,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyQ"
     },
     "key3": {
       "language": {
@@ -310,7 +326,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyW"
     },
     "key4": {
       "language": {
@@ -328,7 +345,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyE"
     },
     "key5": {
       "language": {
@@ -346,7 +364,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyR"
     },
     "key6": {
       "language": {
@@ -364,7 +383,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyT"
     },
     "key7": {
       "language": {
@@ -382,7 +402,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyY"
     },
     "key8": {
       "language": {
@@ -400,7 +421,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyU"
     },
     "key9": {
       "language": {
@@ -418,7 +440,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyI"
     },
     "key10": {
       "language": {
@@ -436,7 +459,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyO"
     },
     "key11": {
       "language": {
@@ -454,7 +478,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyP"
     },
     "key12": {
       "language": {
@@ -472,7 +497,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "BracketLeft"
     },
     "key13": {
       "language": {
@@ -490,7 +516,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "BracketRight"
     },
     "key14": {
       "language": {
@@ -508,7 +535,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "Backslash"
     },
     "key15": {
       "language": {
@@ -528,7 +556,8 @@
         "key",
         "key_size_small",
         "key_color_pink"
-      ]
+      ],
+      "dataAttribute": "Delete"
     }
   },
   "row3": {
@@ -550,7 +579,8 @@
         "key",
         "key_size_small",
         "key_color_pink"
-      ]
+      ],
+      "dataAttribute": "CapsLock"
     },
     "key2": {
       "language": {
@@ -568,7 +598,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyA"
     },
     "key3": {
       "language": {
@@ -586,7 +617,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyS"
     },
     "key4": {
       "language": {
@@ -604,7 +636,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyD"
     },
     "key5": {
       "language": {
@@ -622,7 +655,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyF"
     },
     "key6": {
       "language": {
@@ -640,7 +674,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyG"
     },
     "key7": {
       "language": {
@@ -658,7 +693,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyH"
     },
     "key8": {
       "language": {
@@ -676,7 +712,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyJ"
     },
     "key9": {
       "language": {
@@ -694,7 +731,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyK"
     },
     "key10": {
       "language": {
@@ -712,7 +750,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyL"
     },
     "key11": {
       "language": {
@@ -730,7 +769,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "Semicolon"
     },
     "key12": {
       "language": {
@@ -748,7 +788,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "Quote"
     },
     "key13": {
       "language": {
@@ -768,7 +809,8 @@
         "key",
         "key_size_middle",
         "key_color_pink"
-      ]
+      ],
+      "dataAttribute": "Enter"
     }
   },
   "row4": {
@@ -790,7 +832,8 @@
         "key",
         "key_size_small",
         "key_color_pink"
-      ]
+      ],
+      "dataAttribute": "ShiftLeft"
     },
     "key2": {
       "language": {
@@ -808,7 +851,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyZ"
     },
     "key3": {
       "language": {
@@ -826,7 +870,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyX"
     },
     "key4": {
       "language": {
@@ -844,7 +889,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyC"
     },
     "key5": {
       "language": {
@@ -862,7 +908,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyV"
     },
     "key6": {
       "language": {
@@ -880,7 +927,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyB"
     },
     "key7": {
       "language": {
@@ -898,7 +946,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyN"
     },
     "key8": {
       "language": {
@@ -916,7 +965,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "KeyM"
     },
     "key9": {
       "language": {
@@ -934,7 +984,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "Comma"
     },
     "key10": {
       "language": {
@@ -952,7 +1003,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "Period"
     },
     "key11": {
       "language": {
@@ -970,7 +1022,8 @@
       "classes": [
         "keyboard__key",
         "key"
-      ]
+      ],
+      "dataAttribute": "Slash"
     },
     "key12": {
       "language": {
@@ -989,7 +1042,8 @@
         "keyboard__key",
         "key",
         "key_color_pink"
-      ]
+      ],
+      "dataAttribute": "ArrowUp"
     },
     "key13": {
       "language": {
@@ -1009,7 +1063,8 @@
         "key",
         "key_size_small",
         "key_color_pink"
-      ]
+      ],
+      "dataAttribute": "ShiftRight"
     }
   },
   "row5": {
@@ -1030,7 +1085,8 @@
         "keyboard__key",
         "key",
         "key_color_pink"
-      ]
+      ],
+      "dataAttribute": "ControlLeft"
     },
     "key2": {
       "language": {
@@ -1049,7 +1105,8 @@
         "keyboard__key",
         "key",
         "key_color_pink"
-      ]
+      ],
+      "dataAttribute": ""
     },
     "key3": {
       "language": {
@@ -1068,7 +1125,8 @@
         "keyboard__key",
         "key",
         "key_color_pink"
-      ]
+      ],
+      "dataAttribute": "AltLeft"
     },
     "key4": {
       "language": {
@@ -1088,7 +1146,8 @@
         "key",
         "key_size_large",
         "key_color_pink"
-      ]
+      ],
+      "dataAttribute": "Space"
     },
     "key5": {
       "language": {
@@ -1107,7 +1166,8 @@
         "keyboard__key",
         "key",
         "key_color_pink"
-      ]
+      ],
+      "dataAttribute": "AltRight"
     },
     "key6": {
       "language": {
@@ -1126,7 +1186,8 @@
         "keyboard__key",
         "key",
         "key_color_pink"
-      ]
+      ],
+      "dataAttribute": "ArrowLeft"
     },
     "key7": {
       "language": {
@@ -1145,7 +1206,8 @@
         "keyboard__key",
         "key",
         "key_color_pink"
-      ]
+      ],
+      "dataAttribute": "ArrowDown"
     },
     "key8": {
       "language": {
@@ -1164,7 +1226,8 @@
         "keyboard__key",
         "key",
         "key_color_pink"
-      ]
+      ],
+      "dataAttribute": "ArrowRight"
     },
     "key9": {
       "language": {
@@ -1183,7 +1246,8 @@
         "keyboard__key",
         "key",
         "key_color_pink"
-      ]
+      ],
+      "dataAttribute": "ControlRight"
     }
   }
 }

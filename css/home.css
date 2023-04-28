@@ -1,9 +1,9 @@
-.keyboard {
+.app {
   width: -moz-fit-content;
   width: fit-content;
 }
-.keyboard__body {
-  background-color: #eee;
+.keyboard {
+  background-color: #292b2a;
 }
 .keyboard__row {
   display: flex;
@@ -12,9 +12,21 @@
   display: inline-block;
   width: 30px;
   height: 30px;
-  background-color: orangered;
+  background-color: #7ae8f7;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 10px;
+  transition: all 0.3s ease;
+  will-change: transform;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.key_color_pink {
+  background-color: #ffa4cf;
+}
+.key_active {
+  transform: translate3d(0, 3px, -3px);
+  background-color: #ffd7ea;
 }

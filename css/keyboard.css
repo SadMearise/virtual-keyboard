@@ -1,0 +1,6 @@
+.keyboard {
+  background-color: #eee;
+}
+.keyboard__row {
+  display: flex;
+}
