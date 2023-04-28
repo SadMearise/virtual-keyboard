@@ -13,7 +13,10 @@
           "shift": "~"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key2": {
       "language": {
@@ -28,7 +31,10 @@
           "shift": "!"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key3": {
       "language": {
@@ -43,7 +49,10 @@
           "shift": "@"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key4": {
       "language": {
@@ -58,7 +67,10 @@
           "shift": "#"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key5": {
       "language": {
@@ -73,7 +85,10 @@
           "shift": "$"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key6": {
       "language": {
@@ -88,7 +103,10 @@
           "shift": "%"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key7": {
       "language": {
@@ -103,7 +121,10 @@
           "shift": "^"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key8": {
       "language": {
@@ -118,7 +139,10 @@
           "shift": "&"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key9": {
       "language": {
@@ -133,7 +157,10 @@
           "shift": "*"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key10": {
       "language": {
@@ -148,7 +175,10 @@
           "shift": "("
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key11": {
       "language": {
@@ -163,7 +193,10 @@
           "shift": ")"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key12": {
       "language": {
@@ -178,7 +211,10 @@
           "shift": "_"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key13": {
       "language": {
@@ -193,7 +229,10 @@
           "shift": "+"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key14": {
       "language": {
@@ -208,7 +247,12 @@
           "shift": "Backspace"
         }
       },
-      "classes": ["keyboard__key", "key", "key_size_middle","key_color_pink"]
+      "classes": [
+        "keyboard__key",
+        "key",
+        "key_size_middle",
+        "key_color_pink"
+      ]
     }
   },
   "row2": {
@@ -225,7 +269,12 @@
           "shift": "Tab"
         }
       },
-      "classes": ["keyboard__key", "key", "key_size_small", "key_color_pink"]
+      "classes": [
+        "keyboard__key",
+        "key",
+        "key_size_small",
+        "key_color_pink"
+      ]
     },
     "key2": {
       "language": {
@@ -240,7 +289,10 @@
           "shift": "Q"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key3": {
       "language": {
@@ -255,7 +307,10 @@
           "shift": "W"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key4": {
       "language": {
@@ -270,7 +325,10 @@
           "shift": "E"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key5": {
       "language": {
@@ -285,7 +343,10 @@
           "shift": "R"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key6": {
       "language": {
@@ -300,7 +361,10 @@
           "shift": "T"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key7": {
       "language": {
@@ -315,7 +379,10 @@
           "shift": "Y"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key8": {
       "language": {
@@ -330,7 +397,10 @@
           "shift": "U"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key9": {
       "language": {
@@ -345,7 +415,10 @@
           "shift": "I"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key10": {
       "language": {
@@ -360,7 +433,10 @@
           "shift": "O"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key11": {
       "language": {
@@ -375,7 +451,10 @@
           "shift": "P"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key12": {
       "language": {
@@ -390,7 +469,10 @@
           "shift": "{"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key13": {
       "language": {
@@ -405,7 +487,10 @@
           "shift": "}"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key14": {
       "language": {
@@ -420,7 +505,10 @@
           "shift": "|"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key15": {
       "language": {
@@ -435,7 +523,12 @@
           "shift": "Del"
         }
       },
-      "classes": ["keyboard__key", "key", "key_size_small", "key_color_pink"]
+      "classes": [
+        "keyboard__key",
+        "key",
+        "key_size_small",
+        "key_color_pink"
+      ]
     }
   },
   "row3": {
@@ -452,7 +545,12 @@
           "shift": "Caps"
         }
       },
-      "classes": ["keyboard__key", "key", "key_size_small", "key_color_pink"]
+      "classes": [
+        "keyboard__key",
+        "key",
+        "key_size_small",
+        "key_color_pink"
+      ]
     },
     "key2": {
       "language": {
@@ -467,7 +565,10 @@
           "shift": "A"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key3": {
       "language": {
@@ -482,7 +583,10 @@
           "shift": "S"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key4": {
       "language": {
@@ -497,7 +601,10 @@
           "shift": "D"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key5": {
       "language": {
@@ -512,7 +619,10 @@
           "shift": "F"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key6": {
       "language": {
@@ -527,7 +637,10 @@
           "shift": "G"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key7": {
       "language": {
@@ -542,7 +655,10 @@
           "shift": "H"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key8": {
       "language": {
@@ -557,7 +673,10 @@
           "shift": "J"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key9": {
       "language": {
@@ -572,7 +691,10 @@
           "shift": "K"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key10": {
       "language": {
@@ -587,7 +709,10 @@
           "shift": "L"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key11": {
       "language": {
@@ -602,7 +727,10 @@
           "shift": ":"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key12": {
       "language": {
@@ -617,7 +745,10 @@
           "shift": "\""
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key13": {
       "language": {
@@ -632,7 +763,12 @@
           "shift": "Enter"
         }
       },
-      "classes": ["keyboard__key", "key", "key_size_middle", "key_color_pink"]
+      "classes": [
+        "keyboard__key",
+        "key",
+        "key_size_middle",
+        "key_color_pink"
+      ]
     }
   },
   "row4": {
@@ -649,7 +785,12 @@
           "shift": "Shift"
         }
       },
-      "classes": ["keyboard__key", "key", "key_size_small", "key_color_pink"]
+      "classes": [
+        "keyboard__key",
+        "key",
+        "key_size_small",
+        "key_color_pink"
+      ]
     },
     "key2": {
       "language": {
@@ -664,7 +805,10 @@
           "shift": "Z"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key3": {
       "language": {
@@ -679,7 +823,10 @@
           "shift": "X"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key4": {
       "language": {
@@ -694,7 +841,10 @@
           "shift": "C"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key5": {
       "language": {
@@ -709,7 +859,10 @@
           "shift": "V"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key6": {
       "language": {
@@ -724,7 +877,10 @@
           "shift": "B"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key7": {
       "language": {
@@ -739,7 +895,10 @@
           "shift": "N"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key8": {
       "language": {
@@ -754,7 +913,10 @@
           "shift": "M"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key9": {
       "language": {
@@ -769,7 +931,10 @@
           "shift": "<"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key10": {
       "language": {
@@ -784,7 +949,10 @@
           "shift": ">"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key11": {
       "language": {
@@ -799,7 +967,10 @@
           "shift": "?"
         }
       },
-      "classes": ["keyboard__key", "key"]
+      "classes": [
+        "keyboard__key",
+        "key"
+      ]
     },
     "key12": {
       "language": {
@@ -814,7 +985,11 @@
           "shift": "▲"
         }
       },
-      "classes": ["keyboard__key", "key", "key_color_pink"]
+      "classes": [
+        "keyboard__key",
+        "key",
+        "key_color_pink"
+      ]
     },
     "key13": {
       "language": {
@@ -829,7 +1004,12 @@
           "shift": "Shift"
         }
       },
-      "classes": ["keyboard__key", "key", "key_size_small", "key_color_pink"]
+      "classes": [
+        "keyboard__key",
+        "key",
+        "key_size_small",
+        "key_color_pink"
+      ]
     }
   },
   "row5": {
@@ -846,7 +1026,11 @@
           "shift": "Ctrl"
         }
       },
-      "classes": ["keyboard__key", "key", "key_color_pink"]
+      "classes": [
+        "keyboard__key",
+        "key",
+        "key_color_pink"
+      ]
     },
     "key2": {
       "language": {
@@ -861,7 +1045,11 @@
           "shift": "Win"
         }
       },
-      "classes": ["keyboard__key", "key", "key_color_pink"]
+      "classes": [
+        "keyboard__key",
+        "key",
+        "key_color_pink"
+      ]
     },
     "key3": {
       "language": {
@@ -876,7 +1064,11 @@
           "shift": "Alt"
         }
       },
-      "classes": ["keyboard__key", "key", "key_color_pink"]
+      "classes": [
+        "keyboard__key",
+        "key",
+        "key_color_pink"
+      ]
     },
     "key4": {
       "language": {
@@ -891,7 +1083,12 @@
           "shift": ""
         }
       },
-      "classes": ["keyboard__key", "key", "key_size_large", "key_color_pink"]
+      "classes": [
+        "keyboard__key",
+        "key",
+        "key_size_large",
+        "key_color_pink"
+      ]
     },
     "key5": {
       "language": {
@@ -906,7 +1103,11 @@
           "shift": "Alt"
         }
       },
-      "classes": ["keyboard__key", "key", "key_color_pink"]
+      "classes": [
+        "keyboard__key",
+        "key",
+        "key_color_pink"
+      ]
     },
     "key6": {
       "language": {
@@ -921,7 +1122,11 @@
           "shift": "◄"
         }
       },
-      "classes": ["keyboard__key", "key", "key_color_pink"]
+      "classes": [
+        "keyboard__key",
+        "key",
+        "key_color_pink"
+      ]
     },
     "key7": {
       "language": {
@@ -936,7 +1141,11 @@
           "shift": "▼"
         }
       },
-      "classes": ["keyboard__key", "key", "key_color_pink"]
+      "classes": [
+        "keyboard__key",
+        "key",
+        "key_color_pink"
+      ]
     },
     "key8": {
       "language": {
@@ -951,7 +1160,11 @@
           "shift": "►"
         }
       },
-      "classes": ["keyboard__key", "key", "key_color_pink"]
+      "classes": [
+        "keyboard__key",
+        "key",
+        "key_color_pink"
+      ]
     },
     "key9": {
       "language": {
@@ -966,7 +1179,11 @@
           "shift": "Ctrl"
         }
       },
-      "classes": ["keyboard__key", "key", "key_color_pink"]
+      "classes": [
+        "keyboard__key",
+        "key",
+        "key_color_pink"
+      ]
     }
   }
 }

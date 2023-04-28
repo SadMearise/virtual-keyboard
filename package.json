@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,9 +17,12 @@
   },
   "homepage": "https://github.com/SadMearise/virtual-keyboard#readme",
   "devDependencies": {
-    "eslint": "^8.39.0"
+    "@babel/plugin-syntax-import-assertions": "^7.20.0",
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
   },
   "dependencies": {
-    "eslint-config-airbnb-base": "^15.0.0"
+    "@babel/eslint-parser": "^7.21.3"
   }
 }
