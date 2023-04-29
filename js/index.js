@@ -4,26 +4,37 @@ import Keyboard from './Keyboard.js';
 
 App.createStructure(keyboardData);
 
+let capsLockPressed = false;
+
 document.addEventListener('keydown', (event) => {
   const downKey = document.querySelector(`.keyboard__key[data-key="${event.code}"]`);
-  downKey.classList.add('key_active');
-
-  if (event.ctrlKey || event.altKey) Keyboard.altCtrl(event);
+  downKey.classList.toggle('key_active');
+  if (event.ctrlKey || event.altKey) Keyboard.altCtrl(capsLockPressed, event);
+  else if (event.shiftKey) Keyboard.shift(capsLockPressed, 'keydown');
+  else if (event.code === 'CapsLock') {
+    capsLockPressed = capsLockPressed ? capsLockPressed = false : capsLockPressed = true;
+    Keyboard.capsLock(capsLockPressed);
+  }
 });
 
 document.addEventListener('keyup', (event) => {
-  const downKey = document.querySelector(`.keyboard__key[data-key="${event.code}"]`);
-  downKey.classList.remove('key_active');
+  if (event.code !== 'CapsLock') {
+    const downKey = document.querySelector(`.keyboard__key[data-key="${event.code}"]`);
+    downKey.classList.remove('key_active');
+    if (event.key === 'Shift') Keyboard.shift(capsLockPressed, 'keyup');
+  }
 });
 
 const keyboard = document.querySelector('.keyboard');
 
 keyboard.addEventListener('mousedown', (event) => {
   const { target } = event;
-  if (target.classList.contains('keyboard__key')) target.classList.add('key_active');
+  if (target.classList.contains('keyboard__key')) target.classList.toggle('key_active');
 });
 
 keyboard.addEventListener('mouseup', (event) => {
   const { target } = event;
-  if (target.classList.contains('keyboard__key')) target.classList.remove('key_active');
+  if (target.dataset.key !== 'CapsLock') {
+    if (target.classList.contains('keyboard__key')) target.classList.remove('key_active');
+  }
 });

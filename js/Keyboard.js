@@ -2,7 +2,7 @@ import keyboardData from '../keyboard-symbols.json' assert {type: "json"};
 import App from './App.js';
 
 export default class Keyboard {
-  static init(event) {
+  static init(type) {
     const keyboardRows = document.querySelectorAll('.keyboard__row');
 
     keyboardRows.forEach((row, rowIndex) => {
@@ -15,24 +15,52 @@ export default class Keyboard {
         const keyboardKeyData = keyboardRowData[`key${keyIndex + 1}`];
         const { language } = keyboardKeyData;
 
-        if (event === 'language') {
-          const currentLanguage = App.getLocalStorage('language');
-          keyElement.innerText = language[currentLanguage].lowerCase;
-        }
+        const currentLanguage = App.getLocalStorage('language');
+
+        keyElement.innerText = language[currentLanguage][type];
       });
     });
   }
 
-  static altCtrl(event) {
+  static altCtrl(capsLockState, event) {
     if (event.ctrlKey && event.altKey) {
       if (App.getLocalStorage('language') === 'ru') {
         App.setLocalStorage('language', 'en');
       } else {
         App.setLocalStorage('language', 'ru');
       }
-      this.init('language');
+
+      if (capsLockState) {
+        this.init('upperCase');
+      } else {
+        this.init('lowerCase');
+      }
     }
 
     event.preventDefault();
+  }
+
+  static capsLock(capsLockState) {
+    if (capsLockState) {
+      this.init('upperCase');
+    } else {
+      this.init('lowerCase');
+    }
+  }
+
+  static shift(capsLockState, event) {
+    if (capsLockState) {
+      if (event === 'keydown') {
+        this.init('lowerCase');
+      } else {
+        this.init('shift');
+      }
+    } else if (!capsLockState) {
+      if (event === 'keydown') {
+        this.init('shift');
+      } else {
+        this.init('lowerCase');
+      }
+    }
   }
 }
