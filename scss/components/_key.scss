@@ -11,8 +11,6 @@
   will-change: transform;
   user-select: none;
   border-radius: 6.4px;
-  // opacity: 0.9;
-  // box-shadow: 0px 2px 15px 2px rgba(133, 241, 255, 0.66);
   cursor: pointer;
   &_size {
     &_xss {
@@ -35,12 +33,10 @@
   &_color {
     &_pink {
       background-color: #a6e9d7;
-      // box-shadow: 0px 2px 15px 2px rgb(255, 171, 211, 0.66);
     }
   }
   &_active {
-    transform: translate3d(0, 3px, -3px);
+    transform: translate3d(0, 2px, 0);
     background-color: lighten(#f18db5, 10%);
   }
 }
-// #ffabd3

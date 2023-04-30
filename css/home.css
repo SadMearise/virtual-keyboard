@@ -1,8 +1,6 @@
 .app {
   padding: 40px 15px;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
@@ -80,7 +78,7 @@
   background-color: #a6e9d7;
 }
 .key_active {
-  transform: translate3d(0, 3px, -3px);
+  transform: translate3d(0, 2px, 0);
   background-color: #f7bad2;
 }
 

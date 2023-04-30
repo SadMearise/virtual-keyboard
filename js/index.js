@@ -12,7 +12,6 @@ const textarea = document.querySelector('.text-area');
 let capsLockPressed = false;
 let charToPrint;
 
-// исправить костыль
 setInterval(() => {
   textarea.focus();
 }, 0);
@@ -20,10 +19,10 @@ setInterval(() => {
 textarea.addEventListener('keydown', (event) => {
   const { code } = event;
   const downKey = document.querySelector(`.keyboard__key[data-key="${code}"]`);
+
   if (downKey === null) return;
   if (code === 'CapsLock') downKey.classList.toggle('key_active');
   else downKey.classList.add('key_active');
-
   if (code === 'ControlLeft' || code === 'AltLeft' || code === 'ControlRight' || code === 'AltRight') {
     charToPrint = '';
     Keyboard.altCtrl(capsLockPressed, event);
@@ -46,11 +45,14 @@ textarea.addEventListener('keydown', (event) => {
     charToPrint = ' ';
   } else if (code === 'Tab') {
     charToPrint = '\t';
+  } else if (code === 'MetaLeft') {
+    charToPrint = '';
   } else {
     charToPrint = downKey.innerHTML;
   }
 
   event.preventDefault();
+
   replacer(event, charToPrint);
 });
 
@@ -65,7 +67,7 @@ textarea.addEventListener('keyup', (event) => {
   }
 });
 
-keyboard.addEventListener('mousedown', (event) => {
+const mouseHandler = (event, eventName) => {
   const { target } = event;
 
   if (target.classList.contains('keyboard__key')) {
@@ -73,7 +75,7 @@ keyboard.addEventListener('mousedown', (event) => {
 
     textarea.dispatchEvent(
       new KeyboardEvent(
-        'keydown',
+        eventName,
         {
           key: target.innerHTML,
           code: keyData,
@@ -81,21 +83,7 @@ keyboard.addEventListener('mousedown', (event) => {
       ),
     );
   }
-});
+};
 
-keyboard.addEventListener('mouseup', (event) => {
-  const { target } = event;
-  const keyData = target.dataset.key;
-
-  if (target.classList.contains('keyboard__key')) {
-    textarea.dispatchEvent(
-      new KeyboardEvent(
-        'keyup',
-        {
-          key: target.innerHTML,
-          code: keyData,
-        },
-      ),
-    );
-  }
-});
+keyboard.addEventListener('mousedown', (event) => mouseHandler(event, 'keydown'));
+keyboard.addEventListener('mouseup', (event) => mouseHandler(event, 'keyup'));

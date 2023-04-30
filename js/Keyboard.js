@@ -1,4 +1,3 @@
-// import keyboardData from '../keyboard-symbols.json' assert {type: "json"};
 import App from './App.js';
 
 export default class Keyboard {
@@ -38,8 +37,6 @@ export default class Keyboard {
         this.init('lowerCase');
       }
     }
-
-    event.preventDefault();
   }
 
   static capsLock(capsLockState) {
@@ -79,8 +76,6 @@ export default class Keyboard {
       target.selectionStart = start !== end ? start : start - 1;
       target.selectionEnd = target.selectionStart;
     }
-
-    event.preventDefault();
   }
 
   static delete(event) {
@@ -95,7 +90,5 @@ export default class Keyboard {
       target.selectionStart = start;
       target.selectionEnd = target.selectionStart;
     }
-
-    event.preventDefault();
   }
 }
