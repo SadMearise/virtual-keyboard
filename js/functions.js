@@ -1,14 +1,18 @@
-export default function replacer(event, charToPrint) {
-  const { target } = event;
-  const start = target.selectionStart;
-  const end = target.selectionEnd;
-  const oldValue = target.value;
+export function replacer(element, charToPrint) {
+  const textarea = element;
+  const start = textarea.selectionStart;
+  const end = textarea.selectionEnd;
+  const oldValue = textarea.value;
 
   const newValue = `${oldValue.slice(0, start)}${charToPrint}${oldValue.slice(end)}`;
-  target.value = newValue;
+  textarea.value = newValue;
 
-  target.selectionStart = start + charToPrint.length;
-  target.selectionEnd = target.selectionStart;
+  textarea.selectionStart = start + charToPrint.length;
+  textarea.selectionEnd = textarea.selectionStart;
+}
 
-  event.preventDefault();
+export async function getData() {
+  const response = await fetch('../keyboard-symbols.json');
+  const keyboardData = await response.json();
+  return keyboardData;
 }

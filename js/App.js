@@ -11,8 +11,7 @@ export default class App {
     const fragment = document.createDocumentFragment();
 
     const main = document.createElement('main');
-    main.classList.add('wrapper');
-    main.classList.add('container');
+    main.classList.add('wrapper', 'container');
     fragment.append(main);
 
     const app = document.createElement('div');
@@ -25,14 +24,12 @@ export default class App {
     app.append(title);
 
     const textarea = document.createElement('textarea');
-    textarea.classList.add('app__text-area');
-    textarea.classList.add('text-area');
+    textarea.classList.add('app__text-area', 'text-area');
     textarea.setAttribute('placeholder', 'Рассказывай всё как следует, не торопись...');
     app.append(textarea);
 
     const keyboard = document.createElement('div');
-    keyboard.classList.add('app__keyboard');
-    keyboard.classList.add('keyboard');
+    keyboard.classList.add('app__keyboard', 'keyboard');
     app.append(keyboard);
 
     let localStorageLanguage = this.getLocalStorage('language');
@@ -68,8 +65,7 @@ export default class App {
     }
 
     const description = document.createElement('div');
-    description.classList.add('app__description');
-    description.classList.add('description');
+    description.classList.add('app__description', 'description');
 
     const paragraph1 = document.createElement('p');
     const paragraph2 = document.createElement('p');
@@ -83,8 +79,7 @@ export default class App {
     app.append(description);
 
     const footer = document.createElement('footer');
-    footer.classList.add('footer');
-    footer.classList.add('container');
+    footer.classList.add('footer', 'container');
 
     const copy = document.createElement('div');
     copy.classList.add('footer__copy');

@@ -1,10 +1,10 @@
 import App from './App.js';
+import { getData } from './functions.js';
 
 export default class Keyboard {
   static async init(type) {
     const keyboardRows = document.querySelectorAll('.keyboard__row');
-    const response = await fetch('../keyboard-symbols.json');
-    const keyboardData = await response.json();
+    const keyboardData = await getData();
 
     keyboardRows.forEach((row, rowIndex) => {
       const keyboardKeys = row.querySelectorAll('.keyboard__key');
@@ -63,32 +63,32 @@ export default class Keyboard {
     }
   }
 
-  static backspace(event) {
-    const { target } = event;
-    const start = target.selectionStart;
-    const end = target.selectionEnd;
-    const oldValue = target.value;
+  static backspace() {
+    const textarea = document.querySelector('.text-area');
+    const start = textarea.selectionStart;
+    const end = textarea.selectionEnd;
+    const oldValue = textarea.value;
 
     if (start !== 0) {
       const newValue = `${oldValue.slice(0, start !== end ? start : start - 1)}${oldValue.slice(end)}`;
-      target.value = newValue;
+      textarea.value = newValue;
 
-      target.selectionStart = start !== end ? start : start - 1;
-      target.selectionEnd = target.selectionStart;
+      textarea.selectionStart = start !== end ? start : start - 1;
+      textarea.selectionEnd = textarea.selectionStart;
     }
   }
 
-  static delete(event) {
-    const { target } = event;
-    const start = target.selectionStart;
-    const end = target.selectionEnd;
-    const oldValue = target.value;
+  static delete() {
+    const textarea = document.querySelector('.text-area');
+    const start = textarea.selectionStart;
+    const end = textarea.selectionEnd;
+    const oldValue = textarea.value;
 
     if (oldValue.length > end) {
       const newValue = `${oldValue.slice(0, start)}${oldValue.slice(end + 1)}`;
-      target.value = newValue;
-      target.selectionStart = start;
-      target.selectionEnd = target.selectionStart;
+      textarea.value = newValue;
+      textarea.selectionStart = start;
+      textarea.selectionEnd = textarea.selectionStart;
     }
   }
 }
