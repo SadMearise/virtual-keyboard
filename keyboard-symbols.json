@@ -263,7 +263,7 @@
       "classes": [
         "keyboard__key",
         "key",
-        "key_size_middle",
+        "key_size_m",
         "key_color_pink"
       ],
       "dataAttribute": "Backspace"
@@ -286,7 +286,7 @@
       "classes": [
         "keyboard__key",
         "key",
-        "key_size_small",
+        "key_size_xs",
         "key_color_pink"
       ],
       "dataAttribute": "Tab"
@@ -554,7 +554,7 @@
       "classes": [
         "keyboard__key",
         "key",
-        "key_size_small",
+        "key_size_xss",
         "key_color_pink"
       ],
       "dataAttribute": "Delete"
@@ -577,7 +577,7 @@
       "classes": [
         "keyboard__key",
         "key",
-        "key_size_small",
+        "key_size_m",
         "key_color_pink"
       ],
       "dataAttribute": "CapsLock"
@@ -807,7 +807,7 @@
       "classes": [
         "keyboard__key",
         "key",
-        "key_size_middle",
+        "key_size_s",
         "key_color_pink"
       ],
       "dataAttribute": "Enter"
@@ -830,7 +830,7 @@
       "classes": [
         "keyboard__key",
         "key",
-        "key_size_small",
+        "key_size_m",
         "key_color_pink"
       ],
       "dataAttribute": "ShiftLeft"
@@ -1061,7 +1061,7 @@
       "classes": [
         "keyboard__key",
         "key",
-        "key_size_small",
+        "key_size_s",
         "key_color_pink"
       ],
       "dataAttribute": "ShiftRight"
@@ -1144,7 +1144,7 @@
       "classes": [
         "keyboard__key",
         "key",
-        "key_size_large",
+        "key_size_l",
         "key_color_pink"
       ],
       "dataAttribute": "Space"

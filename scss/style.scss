@@ -1,14 +1,14 @@
 @use "sass:math";
 
 // Функции и переменные
-@import 'base/variables';
-@import 'base/functions';
-
+@import "base/variables";
+@import "base/functions";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 :root {
   --index: calc(1vh + 1vw); // calc(var(--index) * 1);
 
 	// Шрифт по умолчанию
-	--fontFamily: "";
+	--fontFamily: "Poppins", sans-serif;
 
 	// font-weight. prefix: --fw-
 
@@ -33,8 +33,16 @@ $containerPaddingM: 20;
 $containerSidePaddingXS: math.div($containerPaddingM, 2);
 
 // Обнуление, общие параметры
-@import 'base/reset';
+@import "base/reset";
 
+::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  background-color: #ffc0d1;
+  color: #837066;
+}
 // Оболочка
 .wrapper {
 	width: 100%;

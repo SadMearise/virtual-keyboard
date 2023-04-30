@@ -1,0 +1,27 @@
+.app {
+  padding: 40px 15px;
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  &__title {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 30px;
+  }
+
+  &__text-area {
+    margin-bottom: 15px;
+  }
+
+  &__keyboard {
+    margin-bottom: 20px;
+  }
+
+  &__description {
+  }
+
+  *:last-child {
+    margin-bottom: 0;
+  }
+}

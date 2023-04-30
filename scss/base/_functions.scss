@@ -1,5 +1,5 @@
 @use "sass:math";
-@import 'variables';
+@import "variables";
 
 @function prc($pxOne, $pxTwo) {
 	$result: math.div($pxOne, $pxTwo) * 100%;

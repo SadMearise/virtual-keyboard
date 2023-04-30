@@ -48,19 +48,52 @@ export default class Keyboard {
     }
   }
 
-  static shift(capsLockState, event) {
+  static shift(capsLockState, listener) {
     if (capsLockState) {
-      if (event === 'buttondown') {
+      if (listener === 'buttondown') {
         this.init('lowerCase');
       } else {
         this.init('shift');
       }
     } else if (!capsLockState) {
-      if (event === 'buttondown') {
+      if (listener === 'buttondown') {
         this.init('shift');
       } else {
         this.init('lowerCase');
       }
     }
+  }
+
+  static backspace(event) {
+    const { target } = event;
+    const start = target.selectionStart;
+    const end = target.selectionEnd;
+    const oldValue = target.value;
+
+    if (start !== 0) {
+      const newValue = `${oldValue.slice(0, start !== end ? start : start - 1)}${oldValue.slice(end)}`;
+      target.value = newValue;
+
+      target.selectionStart = start !== end ? start : start - 1;
+      target.selectionEnd = target.selectionStart;
+    }
+
+    event.preventDefault();
+  }
+
+  static delete(event) {
+    const { target } = event;
+    const start = target.selectionStart;
+    const end = target.selectionEnd;
+    const oldValue = target.value;
+
+    if (oldValue.length > end) {
+      const newValue = `${oldValue.slice(0, start)}${oldValue.slice(end + 1)}`;
+      target.value = newValue;
+      target.selectionStart = start;
+      target.selectionEnd = target.selectionStart;
+    }
+
+    event.preventDefault();
   }
 }

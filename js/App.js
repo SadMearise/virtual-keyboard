@@ -27,6 +27,7 @@ export default class App {
     const textarea = document.createElement('textarea');
     textarea.classList.add('app__text-area');
     textarea.classList.add('text-area');
+    textarea.setAttribute('placeholder', 'Рассказывай всё как следует, не торопись...');
     app.append(textarea);
 
     const keyboard = document.createElement('div');
@@ -81,6 +82,16 @@ export default class App {
 
     app.append(description);
 
-    document.body.prepend(main);
+    const footer = document.createElement('footer');
+    footer.classList.add('footer');
+    footer.classList.add('container');
+
+    const copy = document.createElement('div');
+    copy.classList.add('footer__copy');
+    copy.innerText = '© SadMearise';
+    footer.append(copy);
+
+    fragment.append(footer);
+    document.body.prepend(fragment);
   }
 }
