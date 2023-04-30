@@ -1,7 +1,9 @@
-import keyboardData from '../keyboard-symbols.json' assert {type: "json"};
 import App from './App.js';
 import Keyboard from './Keyboard.js';
 import replacer from './functions.js';
+
+const response = await fetch('../keyboard-symbols.json');
+const keyboardData = await response.json();
 
 App.createStructure(keyboardData);
 
@@ -10,16 +12,15 @@ const textarea = document.querySelector('.text-area');
 let capsLockPressed = false;
 let charToPrint;
 
-const focusHandler = () => textarea.focus();
-document.addEventListener('keydown', focusHandler);
-document.addEventListener('mousedown', focusHandler);
+// исправить костыль
+setInterval(() => {
+  textarea.focus();
+}, 0);
 
-// 1) пофиксить баг с игнором первого символа
-// 2) сделать асинхронность
 textarea.addEventListener('keydown', (event) => {
   const { code } = event;
   const downKey = document.querySelector(`.keyboard__key[data-key="${code}"]`);
-
+  if (downKey === null) return;
   if (code === 'CapsLock') downKey.classList.toggle('key_active');
   else downKey.classList.add('key_active');
 
@@ -49,6 +50,7 @@ textarea.addEventListener('keydown', (event) => {
     charToPrint = downKey.innerHTML;
   }
 
+  event.preventDefault();
   replacer(event, charToPrint);
 });
 
@@ -56,6 +58,7 @@ textarea.addEventListener('keyup', (event) => {
   const { code, key } = event;
   if (code !== 'CapsLock') {
     const downKey = document.querySelector(`.keyboard__key[data-key="${code}"]`);
+    if (downKey === null) return;
     downKey.classList.remove('key_active');
 
     if (key === 'Shift') Keyboard.shift(capsLockPressed, 'buttonup');
@@ -64,27 +67,19 @@ textarea.addEventListener('keyup', (event) => {
 
 keyboard.addEventListener('mousedown', (event) => {
   const { target } = event;
-  // добавить обработчик клавиш
+
   if (target.classList.contains('keyboard__key')) {
     const keyData = target.dataset.key;
 
-    target.classList.toggle('key_active');
-
-    if (keyData === 'ShiftLeft' || keyData === 'ShiftRight') Keyboard.shift(capsLockPressed, 'buttondown');
-    else if (keyData === 'CapsLock') {
-      capsLockPressed = capsLockPressed ? capsLockPressed = false : capsLockPressed = true;
-      Keyboard.capsLock(capsLockPressed);
-    }
-
-    // textarea.dispatchEvent(
-    //   new KeyboardEvent(
-    //     'keydown',
-    //     {
-    //       key: target.innerHTML,
-    //       code: keyData,
-    //     },
-    //   ),
-    // );
+    textarea.dispatchEvent(
+      new KeyboardEvent(
+        'keydown',
+        {
+          key: target.innerHTML,
+          code: keyData,
+        },
+      ),
+    );
   }
 });
 
@@ -92,9 +87,15 @@ keyboard.addEventListener('mouseup', (event) => {
   const { target } = event;
   const keyData = target.dataset.key;
 
-  if (target.dataset.key !== 'CapsLock') {
-    if (target.classList.contains('keyboard__key')) target.classList.remove('key_active');
-
-    if (keyData === 'ShiftLeft' || keyData === 'ShiftRight') Keyboard.shift(capsLockPressed, 'buttonup');
+  if (target.classList.contains('keyboard__key')) {
+    textarea.dispatchEvent(
+      new KeyboardEvent(
+        'keyup',
+        {
+          key: target.innerHTML,
+          code: keyData,
+        },
+      ),
+    );
   }
 });

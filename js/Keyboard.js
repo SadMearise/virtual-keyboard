@@ -1,9 +1,11 @@
-import keyboardData from '../keyboard-symbols.json' assert {type: "json"};
+// import keyboardData from '../keyboard-symbols.json' assert {type: "json"};
 import App from './App.js';
 
 export default class Keyboard {
-  static init(type) {
+  static async init(type) {
     const keyboardRows = document.querySelectorAll('.keyboard__row');
+    const response = await fetch('../keyboard-symbols.json');
+    const keyboardData = await response.json();
 
     keyboardRows.forEach((row, rowIndex) => {
       const keyboardKeys = row.querySelectorAll('.keyboard__key');
