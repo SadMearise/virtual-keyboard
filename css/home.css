@@ -79,7 +79,7 @@
 }
 .key_active {
   transform: translate3d(0, 2px, 0);
-  background-color: #f7bad2;
+  background-color: #f9d1e1;
 }
 
 .description {
