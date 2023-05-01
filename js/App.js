@@ -10,9 +10,13 @@ export default class App {
   static createStructure(keyboardData) {
     const fragment = document.createDocumentFragment();
 
+    const wrapper = document.createElement('div');
+    wrapper.classList.add('wrapper');
+    fragment.append(wrapper);
+
     const main = document.createElement('main');
-    main.classList.add('wrapper', 'container');
-    fragment.append(main);
+    main.classList.add('main', 'container');
+    wrapper.append(main);
 
     const app = document.createElement('div');
     app.classList.add('app');
@@ -88,7 +92,7 @@ export default class App {
     copy.innerText = '© SadMearise';
     footer.append(copy);
 
-    fragment.append(footer);
+    wrapper.append(footer);
     document.body.prepend(fragment);
   }
 }
