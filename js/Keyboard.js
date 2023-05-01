@@ -50,9 +50,9 @@ export default class Keyboard {
   static shift(capsLockState, listener) {
     if (capsLockState) {
       if (listener === 'buttondown') {
-        this.init('lowerCase');
+        this.init('shiftCapsDown');
       } else {
-        this.init('shift');
+        this.init('shiftCapsUp');
       }
     } else if (!capsLockState) {
       if (listener === 'buttondown') {

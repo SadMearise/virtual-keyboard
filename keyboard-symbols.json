@@ -5,12 +5,16 @@
         "ru": {
           "lowerCase": "ё",
           "upperCase": "Ё",
-          "shift": "Ё"
+          "shift": "Ё",
+          "shiftCapsDown": "ё",
+          "shiftCapsUp": "Ё"
         },
         "en": {
           "lowerCase": "`",
           "upperCase": "`",
-          "shift": "~"
+          "shift": "~",
+          "shiftCapsDown": "~",
+          "shiftCapsUp": "`"
         }
       },
       "classes": [
@@ -24,12 +28,16 @@
         "ru": {
           "lowerCase": "1",
           "upperCase": "1",
-          "shift": "!"
+          "shift": "!",
+          "shiftCapsDown": "!",
+          "shiftCapsUp": "1"
         },
         "en": {
           "lowerCase": "1",
           "upperCase": "1",
-          "shift": "!"
+          "shift": "!",
+          "shiftCapsDown": "!",
+          "shiftCapsUp": "1"
         }
       },
       "classes": [
@@ -43,12 +51,16 @@
         "ru": {
           "lowerCase": "2",
           "upperCase": "2",
-          "shift": "\""
+          "shift": "\"",
+          "shiftCapsDown": "\"",
+          "shiftCapsUp": "2"
         },
         "en": {
           "lowerCase": "2",
           "upperCase": "2",
-          "shift": "@"
+          "shift": "@",
+          "shiftCapsDown": "@",
+          "shiftCapsUp": "2"
         }
       },
       "classes": [
@@ -62,12 +74,16 @@
         "ru": {
           "lowerCase": "3",
           "upperCase": "3",
-          "shift": "№"
+          "shift": "№",
+          "shiftCapsDown": "№",
+          "shiftCapsUp": "3"
         },
         "en": {
           "lowerCase": "3",
           "upperCase": "3",
-          "shift": "#"
+          "shift": "#",
+          "shiftCapsDown": "#",
+          "shiftCapsUp": "3"
         }
       },
       "classes": [
@@ -81,12 +97,16 @@
         "ru": {
           "lowerCase": "4",
           "upperCase": "4",
-          "shift": ";"
+          "shift": ";",
+          "shiftCapsDown": ";",
+          "shiftCapsUp": "4"
         },
         "en": {
           "lowerCase": "4",
           "upperCase": "4",
-          "shift": "$"
+          "shift": "$",
+          "shiftCapsDown": "$",
+          "shiftCapsUp": "4"
         }
       },
       "classes": [
@@ -100,12 +120,16 @@
         "ru": {
           "lowerCase": "5",
           "upperCase": "5",
-          "shift": "%"
+          "shift": "%",
+          "shiftCapsDown": "%",
+          "shiftCapsUp": "5"
         },
         "en": {
           "lowerCase": "5",
           "upperCase": "5",
-          "shift": "%"
+          "shift": "%",
+          "shiftCapsDown": "%",
+          "shiftCapsUp": "5"
         }
       },
       "classes": [
@@ -119,12 +143,16 @@
         "ru": {
           "lowerCase": "6",
           "upperCase": "6",
-          "shift": ":"
+          "shift": ":",
+          "shiftCapsDown": ":",
+          "shiftCapsUp": "6"
         },
         "en": {
           "lowerCase": "6",
           "upperCase": "6",
-          "shift": "^"
+          "shift": "^",
+          "shiftCapsDown": "^",
+          "shiftCapsUp": "6"
         }
       },
       "classes": [
@@ -138,12 +166,16 @@
         "ru": {
           "lowerCase": "7",
           "upperCase": "7",
-          "shift": "?"
+          "shift": "?",
+          "shiftCapsDown": "?",
+          "shiftCapsUp": "7"
         },
         "en": {
           "lowerCase": "7",
           "upperCase": "7",
-          "shift": "&"
+          "shift": "&",
+          "shiftCapsDown": "&",
+          "shiftCapsUp": "7"
         }
       },
       "classes": [
@@ -157,12 +189,16 @@
         "ru": {
           "lowerCase": "8",
           "upperCase": "8",
-          "shift": "*"
+          "shift": "*",
+          "shiftCapsDown": "*",
+          "shiftCapsUp": "8"
         },
         "en": {
           "lowerCase": "8",
           "upperCase": "8",
-          "shift": "*"
+          "shift": "*",
+          "shiftCapsDown": "*",
+          "shiftCapsUp": "8"
         }
       },
       "classes": [
@@ -176,12 +212,16 @@
         "ru": {
           "lowerCase": "9",
           "upperCase": "9",
-          "shift": "("
+          "shift": "(",
+          "shiftCapsDown": "(",
+          "shiftCapsUp": "9"
         },
         "en": {
           "lowerCase": "9",
           "upperCase": "9",
-          "shift": "("
+          "shift": "(",
+          "shiftCapsDown": "(",
+          "shiftCapsUp": "9"
         }
       },
       "classes": [
@@ -195,12 +235,16 @@
         "ru": {
           "lowerCase": "0",
           "upperCase": "0",
-          "shift": ")"
+          "shift": ")",
+          "shiftCapsDown": ")",
+          "shiftCapsUp": "0"
         },
         "en": {
           "lowerCase": "0",
           "upperCase": "0",
-          "shift": ")"
+          "shift": ")",
+          "shiftCapsDown": ")",
+          "shiftCapsUp": "0"
         }
       },
       "classes": [
@@ -214,12 +258,16 @@
         "ru": {
           "lowerCase": "-",
           "upperCase": "-",
-          "shift": "_"
+          "shift": "_",
+          "shiftCapsDown": "_",
+          "shiftCapsUp": "-"
         },
         "en": {
           "lowerCase": "-",
           "upperCase": "-",
-          "shift": "_"
+          "shift": "_",
+          "shiftCapsDown": "_",
+          "shiftCapsUp": "-"
         }
       },
       "classes": [
@@ -233,12 +281,16 @@
         "ru": {
           "lowerCase": "=",
           "upperCase": "=",
-          "shift": "+"
+          "shift": "+",
+          "shiftCapsDown": "+",
+          "shiftCapsUp": "="
         },
         "en": {
           "lowerCase": "=",
           "upperCase": "=",
-          "shift": "+"
+          "shift": "+",
+          "shiftCapsDown": "+",
+          "shiftCapsUp": "="
         }
       },
       "classes": [
@@ -252,12 +304,16 @@
         "ru": {
           "lowerCase": "Backspace",
           "upperCase": "Backspace",
-          "shift": "Backspace"
+          "shift": "Backspace",
+          "shiftCapsDown": "Backspace",
+          "shiftCapsUp": "Backspace"
         },
         "en": {
           "lowerCase": "Backspace",
           "upperCase": "Backspace",
-          "shift": "Backspace"
+          "shift": "Backspace",
+          "shiftCapsDown": "Backspace",
+          "shiftCapsUp": "Backspace"
         }
       },
       "classes": [
@@ -275,12 +331,16 @@
         "ru": {
           "lowerCase": "Tab",
           "upperCase": "Tab",
-          "shift": "Tab"
+          "shift": "Tab",
+          "shiftCapsDown": "Tab",
+          "shiftCapsUp": "Tab"
         },
         "en": {
           "lowerCase": "Tab",
           "upperCase": "Tab",
-          "shift": "Tab"
+          "shift": "Tab",
+          "shiftCapsDown": "Tab",
+          "shiftCapsUp": "Tab"
         }
       },
       "classes": [
@@ -296,12 +356,16 @@
         "ru": {
           "lowerCase": "й",
           "upperCase": "Й",
-          "shift": "Й"
+          "shift": "Й",
+          "shiftCapsDown": "й",
+          "shiftCapsUp": "Й"
         },
         "en": {
           "lowerCase": "q",
           "upperCase": "Q",
-          "shift": "Q"
+          "shift": "Q",
+          "shiftCapsDown": "q",
+          "shiftCapsUp": "Q"
         }
       },
       "classes": [
@@ -315,12 +379,16 @@
         "ru": {
           "lowerCase": "ц",
           "upperCase": "Ц",
-          "shift": "Ц"
+          "shift": "Ц",
+          "shiftCapsDown": "ц",
+          "shiftCapsUp": "Ц"
         },
         "en": {
           "lowerCase": "w",
           "upperCase": "W",
-          "shift": "W"
+          "shift": "W",
+          "shiftCapsDown": "w",
+          "shiftCapsUp": "W"
         }
       },
       "classes": [
@@ -334,12 +402,16 @@
         "ru": {
           "lowerCase": "у",
           "upperCase": "У",
-          "shift": "У"
+          "shift": "У",
+          "shiftCapsDown": "у",
+          "shiftCapsUp": "У"
         },
         "en": {
           "lowerCase": "e",
           "upperCase": "E",
-          "shift": "E"
+          "shift": "E",
+          "shiftCapsDown": "e",
+          "shiftCapsUp": "E"
         }
       },
       "classes": [
@@ -353,12 +425,16 @@
         "ru": {
           "lowerCase": "к",
           "upperCase": "К",
-          "shift": "К"
+          "shift": "К",
+          "shiftCapsDown": "к",
+          "shiftCapsUp": "К"
         },
         "en": {
           "lowerCase": "r",
           "upperCase": "R",
-          "shift": "R"
+          "shift": "R",
+          "shiftCapsDown": "r",
+          "shiftCapsUp": "R"
         }
       },
       "classes": [
@@ -371,13 +447,17 @@
       "language": {
         "ru": {
           "lowerCase": "е",
-          "upperCase": "е",
-          "shift": "Е"
+          "upperCase": "Е",
+          "shift": "Е",
+          "shiftCapsDown": "е",
+          "shiftCapsUp": "Е"
         },
         "en": {
           "lowerCase": "t",
           "upperCase": "T",
-          "shift": "T"
+          "shift": "T",
+          "shiftCapsDown": "t",
+          "shiftCapsUp": "T"
         }
       },
       "classes": [
@@ -390,13 +470,17 @@
       "language": {
         "ru": {
           "lowerCase": "н",
-          "upperCase": "н",
-          "shift": "Н"
+          "upperCase": "Н",
+          "shift": "Н",
+          "shiftCapsDown": "н",
+          "shiftCapsUp": "Н"
         },
         "en": {
           "lowerCase": "y",
           "upperCase": "Y",
-          "shift": "Y"
+          "shift": "Y",
+          "shiftCapsDown": "y",
+          "shiftCapsUp": "Y"
         }
       },
       "classes": [
@@ -410,12 +494,16 @@
         "ru": {
           "lowerCase": "г",
           "upperCase": "Г",
-          "shift": "Г"
+          "shift": "Г",
+          "shiftCapsDown": "г",
+          "shiftCapsUp": "Г"
         },
         "en": {
           "lowerCase": "u",
           "upperCase": "U",
-          "shift": "U"
+          "shift": "U",
+          "shiftCapsDown": "u",
+          "shiftCapsUp": "U"
         }
       },
       "classes": [
@@ -429,12 +517,16 @@
         "ru": {
           "lowerCase": "ш",
           "upperCase": "Ш",
-          "shift": "Ш"
+          "shift": "Ш",
+          "shiftCapsDown": "ш",
+          "shiftCapsUp": "Ш"
         },
         "en": {
           "lowerCase": "i",
           "upperCase": "I",
-          "shift": "I"
+          "shift": "I",
+          "shiftCapsDown": "i",
+          "shiftCapsUp": "I"
         }
       },
       "classes": [
@@ -448,12 +540,16 @@
         "ru": {
           "lowerCase": "щ",
           "upperCase": "Щ",
-          "shift": "Щ"
+          "shift": "Щ",
+          "shiftCapsDown": "щ",
+          "shiftCapsUp": "Щ"
         },
         "en": {
           "lowerCase": "o",
           "upperCase": "O",
-          "shift": "O"
+          "shift": "O",
+          "shiftCapsDown": "o",
+          "shiftCapsUp": "O"
         }
       },
       "classes": [
@@ -467,12 +563,16 @@
         "ru": {
           "lowerCase": "з",
           "upperCase": "З",
-          "shift": "З"
+          "shift": "З",
+          "shiftCapsDown": "з",
+          "shiftCapsUp": "З"
         },
         "en": {
           "lowerCase": "p",
           "upperCase": "P",
-          "shift": "P"
+          "shift": "P",
+          "shiftCapsDown": "p",
+          "shiftCapsUp": "P"
         }
       },
       "classes": [
@@ -486,12 +586,16 @@
         "ru": {
           "lowerCase": "х",
           "upperCase": "Х",
-          "shift": "Х"
+          "shift": "Х",
+          "shiftCapsDown": "х",
+          "shiftCapsUp": "Х"
         },
         "en": {
           "lowerCase": "[",
           "upperCase": "[",
-          "shift": "{"
+          "shift": "{",
+          "shiftCapsDown": "{",
+          "shiftCapsUp": "["
         }
       },
       "classes": [
@@ -505,12 +609,16 @@
         "ru": {
           "lowerCase": "ъ",
           "upperCase": "Ъ",
-          "shift": "Ъ"
+          "shift": "Ъ",
+          "shiftCapsDown": "ъ",
+          "shiftCapsUp": "Ъ"
         },
         "en": {
           "lowerCase": "]",
           "upperCase": "]",
-          "shift": "}"
+          "shift": "}",
+          "shiftCapsDown": "}",
+          "shiftCapsUp": "]"
         }
       },
       "classes": [
@@ -524,12 +632,16 @@
         "ru": {
           "lowerCase": "\\",
           "upperCase": "\\",
-          "shift": "\/"
+          "shift": "\/",
+          "shiftCapsDown": "\/",
+          "shiftCapsUp": "\\"
         },
         "en": {
           "lowerCase": "\\",
           "upperCase": "\\",
-          "shift": "|"
+          "shift": "|",
+          "shiftCapsDown": "|",
+          "shiftCapsUp": "\\"
         }
       },
       "classes": [
@@ -543,12 +655,16 @@
         "ru": {
           "lowerCase": "Del",
           "upperCase": "Del",
-          "shift": "Del"
+          "shift": "Del",
+          "shiftCapsDown": "Del",
+          "shiftCapsUp": "Del"
         },
         "en": {
           "lowerCase": "Del",
           "upperCase": "Del",
-          "shift": "Del"
+          "shift": "Del",
+          "shiftCapsDown": "Del",
+          "shiftCapsUp": "Del"
         }
       },
       "classes": [
@@ -566,12 +682,16 @@
         "ru": {
           "lowerCase": "Caps",
           "upperCase": "Caps",
-          "shift": "Caps"
+          "shift": "Caps",
+          "shiftCapsDown": "Caps",
+          "shiftCapsUp": "Caps"
         },
         "en": {
           "lowerCase": "Caps",
           "upperCase": "Caps",
-          "shift": "Caps"
+          "shift": "Caps",
+          "shiftCapsDown": "Caps",
+          "shiftCapsUp": "Caps"
         }
       },
       "classes": [
@@ -587,12 +707,16 @@
         "ru": {
           "lowerCase": "ф",
           "upperCase": "Ф",
-          "shift": "Ф"
+          "shift": "Ф",
+          "shiftCapsDown": "ф",
+          "shiftCapsUp": "Ф"
         },
         "en": {
           "lowerCase": "a",
           "upperCase": "A",
-          "shift": "A"
+          "shift": "A",
+          "shiftCapsDown": "a",
+          "shiftCapsUp": "A"
         }
       },
       "classes": [
@@ -606,12 +730,16 @@
         "ru": {
           "lowerCase": "ы",
           "upperCase": "Ы",
-          "shift": "Ы"
+          "shift": "Ы",
+          "shiftCapsDown": "ы",
+          "shiftCapsUp": "Ы"
         },
         "en": {
           "lowerCase": "s",
           "upperCase": "S",
-          "shift": "S"
+          "shift": "S",
+          "shiftCapsDown": "s",
+          "shiftCapsUp": "S"
         }
       },
       "classes": [
@@ -625,12 +753,16 @@
         "ru": {
           "lowerCase": "в",
           "upperCase": "В",
-          "shift": "В"
+          "shift": "В",
+          "shiftCapsDown": "в",
+          "shiftCapsUp": "В"
         },
         "en": {
           "lowerCase": "d",
           "upperCase": "D",
-          "shift": "D"
+          "shift": "D",
+          "shiftCapsDown": "d",
+          "shiftCapsUp": "D"
         }
       },
       "classes": [
@@ -644,12 +776,16 @@
         "ru": {
           "lowerCase": "а",
           "upperCase": "А",
-          "shift": "А"
+          "shift": "А",
+          "shiftCapsDown": "а",
+          "shiftCapsUp": "А"
         },
         "en": {
           "lowerCase": "f",
           "upperCase": "F",
-          "shift": "F"
+          "shift": "F",
+          "shiftCapsDown": "f",
+          "shiftCapsUp": "F"
         }
       },
       "classes": [
@@ -663,12 +799,16 @@
         "ru": {
           "lowerCase": "п",
           "upperCase": "П",
-          "shift": "П"
+          "shift": "П",
+          "shiftCapsDown": "п",
+          "shiftCapsUp": "П"
         },
         "en": {
           "lowerCase": "g",
           "upperCase": "G",
-          "shift": "G"
+          "shift": "G",
+          "shiftCapsDown": "g",
+          "shiftCapsUp": "G"
         }
       },
       "classes": [
@@ -682,12 +822,16 @@
         "ru": {
           "lowerCase": "р",
           "upperCase": "Р",
-          "shift": "Р"
+          "shift": "Р",
+          "shiftCapsDown": "р",
+          "shiftCapsUp": "Р"
         },
         "en": {
           "lowerCase": "h",
           "upperCase": "H",
-          "shift": "H"
+          "shift": "H",
+          "shiftCapsDown": "h",
+          "shiftCapsUp": "H"
         }
       },
       "classes": [
@@ -701,12 +845,16 @@
         "ru": {
           "lowerCase": "о",
           "upperCase": "О",
-          "shift": "О"
+          "shift": "О",
+          "shiftCapsDown": "о",
+          "shiftCapsUp": "О"
         },
         "en": {
           "lowerCase": "j",
           "upperCase": "J",
-          "shift": "J"
+          "shift": "J",
+          "shiftCapsDown": "j",
+          "shiftCapsUp": "J"
         }
       },
       "classes": [
@@ -720,12 +868,16 @@
         "ru": {
           "lowerCase": "л",
           "upperCase": "Л",
-          "shift": "Л"
+          "shift": "Л",
+          "shiftCapsDown": "л",
+          "shiftCapsUp": "Л"
         },
         "en": {
           "lowerCase": "k",
           "upperCase": "K",
-          "shift": "K"
+          "shift": "K",
+          "shiftCapsDown": "k",
+          "shiftCapsUp": "K"
         }
       },
       "classes": [
@@ -739,12 +891,16 @@
         "ru": {
           "lowerCase": "д",
           "upperCase": "Д",
-          "shift": "Д"
+          "shift": "Д",
+          "shiftCapsDown": "д",
+          "shiftCapsUp": "Д"
         },
         "en": {
           "lowerCase": "l",
           "upperCase": "L",
-          "shift": "L"
+          "shift": "L",
+          "shiftCapsDown": "l",
+          "shiftCapsUp": "L"
         }
       },
       "classes": [
@@ -758,12 +914,16 @@
         "ru": {
           "lowerCase": "ж",
           "upperCase": "Ж",
-          "shift": "Ж"
+          "shift": "Ж",
+          "shiftCapsDown": "ж",
+          "shiftCapsUp": "Ж"
         },
         "en": {
           "lowerCase": ";",
           "upperCase": ";",
-          "shift": ":"
+          "shift": ":",
+          "shiftCapsDown": ":",
+          "shiftCapsUp": ";"
         }
       },
       "classes": [
@@ -777,12 +937,16 @@
         "ru": {
           "lowerCase": "э",
           "upperCase": "Э",
-          "shift": "Э"
+          "shift": "Э",
+          "shiftCapsDown": "э",
+          "shiftCapsUp": "Э"
         },
         "en": {
           "lowerCase": "'",
           "upperCase": "'",
-          "shift": "\""
+          "shift": "\"",
+          "shiftCapsDown": "\"",
+          "shiftCapsUp": "'"
         }
       },
       "classes": [
@@ -796,12 +960,16 @@
         "ru": {
           "lowerCase": "Enter",
           "upperCase": "Enter",
-          "shift": "Enter"
+          "shift": "Enter",
+          "shiftCapsDown": "Enter",
+          "shiftCapsUp": "Enter"
         },
         "en": {
           "lowerCase": "Enter",
           "upperCase": "Enter",
-          "shift": "Enter"
+          "shift": "Enter",
+          "shiftCapsDown": "Enter",
+          "shiftCapsUp": "Enter"
         }
       },
       "classes": [
@@ -819,12 +987,16 @@
         "ru": {
           "lowerCase": "Shift",
           "upperCase": "Shift",
-          "shift": "Shift"
+          "shift": "Shift",
+          "shiftCapsDown": "Shift",
+          "shiftCapsUp": "Shift"
         },
         "en": {
           "lowerCase": "Shift",
           "upperCase": "Shift",
-          "shift": "Shift"
+          "shift": "Shift",
+          "shiftCapsDown": "Shift",
+          "shiftCapsUp": "Shift"
         }
       },
       "classes": [
@@ -840,12 +1012,16 @@
         "ru": {
           "lowerCase": "я",
           "upperCase": "Я",
-          "shift": "Я"
+          "shift": "Я",
+          "shiftCapsDown": "я",
+          "shiftCapsUp": "Я"
         },
         "en": {
           "lowerCase": "z",
           "upperCase": "Z",
-          "shift": "Z"
+          "shift": "Z",
+          "shiftCapsDown": "z",
+          "shiftCapsUp": "Z"
         }
       },
       "classes": [
@@ -859,12 +1035,16 @@
         "ru": {
           "lowerCase": "ч",
           "upperCase": "Ч",
-          "shift": "Ч"
+          "shift": "Ч",
+          "shiftCapsDown": "ч",
+          "shiftCapsUp": "Ч"
         },
         "en": {
           "lowerCase": "x",
           "upperCase": "X",
-          "shift": "X"
+          "shift": "X",
+          "shiftCapsDown": "x",
+          "shiftCapsUp": "X"
         }
       },
       "classes": [
@@ -878,12 +1058,16 @@
         "ru": {
           "lowerCase": "с",
           "upperCase": "С",
-          "shift": "С"
+          "shift": "С",
+          "shiftCapsDown": "с",
+          "shiftCapsUp": "С"
         },
         "en": {
           "lowerCase": "c",
           "upperCase": "C",
-          "shift": "C"
+          "shift": "C",
+          "shiftCapsDown": "c",
+          "shiftCapsUp": "C"
         }
       },
       "classes": [
@@ -897,12 +1081,16 @@
         "ru": {
           "lowerCase": "м",
           "upperCase": "М",
-          "shift": "М"
+          "shift": "М",
+          "shiftCapsDown": "м",
+          "shiftCapsUp": "М"
         },
         "en": {
           "lowerCase": "v",
           "upperCase": "V",
-          "shift": "V"
+          "shift": "V",
+          "shiftCapsDown": "v",
+          "shiftCapsUp": "V"
         }
       },
       "classes": [
@@ -916,12 +1104,16 @@
         "ru": {
           "lowerCase": "и",
           "upperCase": "И",
-          "shift": "И"
+          "shift": "И",
+          "shiftCapsDown": "и",
+          "shiftCapsUp": "И"
         },
         "en": {
           "lowerCase": "b",
           "upperCase": "B",
-          "shift": "B"
+          "shift": "B",
+          "shiftCapsDown": "b",
+          "shiftCapsUp": "B"
         }
       },
       "classes": [
@@ -935,12 +1127,16 @@
         "ru": {
           "lowerCase": "т",
           "upperCase": "Т",
-          "shift": "Т"
+          "shift": "Т",
+          "shiftCapsDown": "т",
+          "shiftCapsUp": "Т"
         },
         "en": {
           "lowerCase": "n",
           "upperCase": "N",
-          "shift": "N"
+          "shift": "N",
+          "shiftCapsDown": "n",
+          "shiftCapsUp": "N"
         }
       },
       "classes": [
@@ -954,12 +1150,16 @@
         "ru": {
           "lowerCase": "ь",
           "upperCase": "Ь",
-          "shift": "Ь"
+          "shift": "Ь",
+          "shiftCapsDown": "ь",
+          "shiftCapsUp": "Ь"
         },
         "en": {
           "lowerCase": "m",
           "upperCase": "M",
-          "shift": "M"
+          "shift": "M",
+          "shiftCapsDown": "m",
+          "shiftCapsUp": "M"
         }
       },
       "classes": [
@@ -973,12 +1173,16 @@
         "ru": {
           "lowerCase": "б",
           "upperCase": "Б",
-          "shift": "Б"
+          "shift": "Б",
+          "shiftCapsDown": "б",
+          "shiftCapsUp": "Б"
         },
         "en": {
           "lowerCase": ",",
           "upperCase": ",",
-          "shift": "<"
+          "shift": "<",
+          "shiftCapsDown": "<",
+          "shiftCapsUp": ","
         }
       },
       "classes": [
@@ -992,12 +1196,16 @@
         "ru": {
           "lowerCase": "ю",
           "upperCase": "Ю",
-          "shift": "Ю"
+          "shift": "Ю",
+          "shiftCapsDown": "ю",
+          "shiftCapsUp": "Ю"
         },
         "en": {
           "lowerCase": ".",
           "upperCase": ".",
-          "shift": ">"
+          "shift": ">",
+          "shiftCapsDown": ">",
+          "shiftCapsUp": "."
         }
       },
       "classes": [
@@ -1011,12 +1219,16 @@
         "ru": {
           "lowerCase": ".",
           "upperCase": ".",
-          "shift": ","
+          "shift": ",",
+          "shiftCapsDown": ",",
+          "shiftCapsUp": "."
         },
         "en": {
           "lowerCase": "/",
           "upperCase": "/",
-          "shift": "?"
+          "shift": "?",
+          "shiftCapsDown": "?",
+          "shiftCapsUp": "/"
         }
       },
       "classes": [
@@ -1030,12 +1242,16 @@
         "ru": {
           "lowerCase": "▲",
           "upperCase": "▲",
-          "shift": "▲"
+          "shift": "▲",
+          "shiftCapsDown": "▲",
+          "shiftCapsUp": "▲"
         },
         "en": {
           "lowerCase": "▲",
           "upperCase": "▲",
-          "shift": "▲"
+          "shift": "▲",
+          "shiftCapsDown": "▲",
+          "shiftCapsUp": "▲"
         }
       },
       "classes": [
@@ -1050,12 +1266,16 @@
         "ru": {
           "lowerCase": "Shift",
           "upperCase": "Shift",
-          "shift": "Shift"
+          "shift": "Shift",
+          "shiftCapsDown": "Shift",
+          "shiftCapsUp": "Shift"
         },
         "en": {
           "lowerCase": "Shift",
           "upperCase": "Shift",
-          "shift": "Shift"
+          "shift": "Shift",
+          "shiftCapsDown": "Shift",
+          "shiftCapsUp": "Shift"
         }
       },
       "classes": [
@@ -1073,12 +1293,16 @@
         "ru": {
           "lowerCase": "Ctrl",
           "upperCase": "Ctrl",
-          "shift": "Ctrl"
+          "shift": "Ctrl",
+          "shiftCapsDown": "Ctrl",
+          "shiftCapsUp": "Ctrl"
         },
         "en": {
           "lowerCase": "Ctrl",
           "upperCase": "Ctrl",
-          "shift": "Ctrl"
+          "shift": "Ctrl",
+          "shiftCapsDown": "Ctrl",
+          "shiftCapsUp": "Ctrl"
         }
       },
       "classes": [
@@ -1093,12 +1317,16 @@
         "ru": {
           "lowerCase": "Win",
           "upperCase": "Win",
-          "shift": "Win"
+          "shift": "Win",
+          "shiftCapsDown": "Win",
+          "shiftCapsUp": "Win"
         },
         "en": {
           "lowerCase": "Win",
           "upperCase": "Win",
-          "shift": "Win"
+          "shift": "Win",
+          "shiftCapsDown": "Win",
+          "shiftCapsUp": "Win"
         }
       },
       "classes": [
@@ -1113,12 +1341,16 @@
         "ru": {
           "lowerCase": "Alt",
           "upperCase": "Alt",
-          "shift": "Alt"
+          "shift": "Alt",
+          "shiftCapsDown": "Alt",
+          "shiftCapsUp": "Alt"
         },
         "en": {
           "lowerCase": "Alt",
           "upperCase": "Alt",
-          "shift": "Alt"
+          "shift": "Alt",
+          "shiftCapsDown": "Alt",
+          "shiftCapsUp": "Alt"
         }
       },
       "classes": [
@@ -1133,12 +1365,16 @@
         "ru": {
           "lowerCase": "",
           "upperCase": "",
-          "shift": ""
+          "shift": "",
+          "shiftCapsDown": "",
+          "shiftCapsUp": ""
         },
         "en": {
           "lowerCase": "",
           "upperCase": "",
-          "shift": ""
+          "shift": "",
+          "shiftCapsDown": "",
+          "shiftCapsUp": ""
         }
       },
       "classes": [
@@ -1154,12 +1390,16 @@
         "ru": {
           "lowerCase": "Alt",
           "upperCase": "Alt",
-          "shift": "Alt"
+          "shift": "Alt",
+          "shiftCapsDown": "Alt",
+          "shiftCapsUp": "Alt"
         },
         "en": {
           "lowerCase": "Alt",
           "upperCase": "Alt",
-          "shift": "Alt"
+          "shift": "Alt",
+          "shiftCapsDown": "Alt",
+          "shiftCapsUp": "Alt"
         }
       },
       "classes": [
@@ -1174,12 +1414,16 @@
         "ru": {
           "lowerCase": "◄",
           "upperCase": "◄",
-          "shift": "◄"
+          "shift": "◄",
+          "shiftCapsDown": "◄",
+          "shiftCapsUp": "◄"
         },
         "en": {
           "lowerCase": "◄",
           "upperCase": "◄",
-          "shift": "◄"
+          "shift": "◄",
+          "shiftCapsDown": "◄",
+          "shiftCapsUp": "◄"
         }
       },
       "classes": [
@@ -1194,12 +1438,16 @@
         "ru": {
           "lowerCase": "▼",
           "upperCase": "▼",
-          "shift": "▼"
+          "shift": "▼",
+          "shiftCapsDown": "▼",
+          "shiftCapsUp": "▼"
         },
         "en": {
           "lowerCase": "▼",
           "upperCase": "▼",
-          "shift": "▼"
+          "shift": "▼",
+          "shiftCapsDown": "▼",
+          "shiftCapsUp": "▼"
         }
       },
       "classes": [
@@ -1214,12 +1462,16 @@
         "ru": {
           "lowerCase": "►",
           "upperCase": "►",
-          "shift": "►"
+          "shift": "►",
+          "shiftCapsDown": "►",
+          "shiftCapsUp": "►"
         },
         "en": {
           "lowerCase": "►",
           "upperCase": "►",
-          "shift": "►"
+          "shift": "►",
+          "shiftCapsDown": "►",
+          "shiftCapsUp": "►"
         }
       },
       "classes": [
@@ -1234,12 +1486,16 @@
         "ru": {
           "lowerCase": "Ctrl",
           "upperCase": "Ctrl",
-          "shift": "Ctrl"
+          "shift": "Ctrl",
+          "shiftCapsDown": "Ctrl",
+          "shiftCapsUp": "Ctrl"
         },
         "en": {
           "lowerCase": "Ctrl",
           "upperCase": "Ctrl",
-          "shift": "Ctrl"
+          "shift": "Ctrl",
+          "shiftCapsDown": "Ctrl",
+          "shiftCapsUp": "Ctrl"
         }
       },
       "classes": [
