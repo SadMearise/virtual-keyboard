@@ -1,9 +1,0 @@
-.description {
-  text-align: center;
-  font-style: italic;
-  &__text {
-    & + & {
-      margin-top: 5px;
-    }
-  }
-}
