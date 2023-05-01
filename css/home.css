@@ -22,9 +22,7 @@
 .text-area {
   position: relative;
   width: 100%;
-  height: 250px;
   border-radius: 6.4px;
-  border: none;
   resize: none;
   border: 4px solid #837066;
   padding: 20px;
@@ -79,6 +77,8 @@
 }
 .key_active {
   transform: translate3d(0, 2px, 0);
+}
+.key_active_color {
   background-color: #f9d1e1;
 }
 

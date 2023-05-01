@@ -35,8 +35,11 @@
       background-color: #a6e9d7;
     }
   }
+
   &_active {
     transform: translate3d(0, 2px, 0);
-    background-color: lighten(#f18db5, 15%);
+    &_color {
+      background-color: lighten(#f18db5, 15%);
+    }
   }
 }

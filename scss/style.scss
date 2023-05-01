@@ -42,6 +42,7 @@ $containerSidePaddingXS: math.div($containerPaddingM, 2);
 body {
   background-color: #ffc0d1;
   color: #837066;
+  user-select: none;
 }
 // Оболочка
 .wrapper {

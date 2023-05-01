@@ -26,6 +26,8 @@ export default class App {
     const textarea = document.createElement('textarea');
     textarea.classList.add('app__text-area', 'text-area');
     textarea.setAttribute('placeholder', 'Рассказывай всё как следует, не торопись...');
+    textarea.setAttribute('rows', '7');
+    textarea.setAttribute('cols', '30');
     app.append(textarea);
 
     const keyboard = document.createElement('div');

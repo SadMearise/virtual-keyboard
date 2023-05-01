@@ -5,6 +5,7 @@ export function replacer(element, charToPrint) {
   const oldValue = textarea.value;
 
   const newValue = `${oldValue.slice(0, start)}${charToPrint}${oldValue.slice(end)}`;
+
   textarea.value = newValue;
 
   textarea.selectionStart = start + charToPrint.length;
@@ -12,7 +13,7 @@ export function replacer(element, charToPrint) {
 }
 
 export async function getData() {
-  const response = await fetch('../keyboard-symbols.json');
+  const response = await fetch('./keyboard-symbols.json');
   const keyboardData = await response.json();
   return keyboardData;
 }

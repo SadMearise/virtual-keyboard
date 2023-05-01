@@ -106,6 +106,9 @@ q:before, q:after {
 body {
   background-color: #ffc0d1;
   color: #837066;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 .wrapper {

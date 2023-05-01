@@ -8,6 +8,7 @@ import * as functions from './functions.js';
 
   const keyboard = document.querySelector('.keyboard');
   const textarea = document.querySelector('.text-area');
+  const keyboardKeys = document.querySelectorAll('.keyboard__key');
   let capsLockPressed = false;
   let charToPrint;
 
@@ -17,8 +18,11 @@ import * as functions from './functions.js';
     const downKey = document.querySelector(`.keyboard__key[data-key="${code}"]`);
 
     if (downKey === null) return;
-    if (code === 'CapsLock') downKey.classList.toggle('key_active');
-    else downKey.classList.add('key_active');
+    if (code === 'CapsLock') {
+      downKey.classList.toggle('key_active_color');
+      downKey.classList.toggle('key_active');
+    } else downKey.classList.add('key_active', 'key_active_color');
+
     if (code === 'ControlLeft' || code === 'AltLeft' || code === 'ControlRight' || code === 'AltRight') {
       charToPrint = '';
       Keyboard.altCtrl(capsLockPressed, event);
@@ -45,6 +49,9 @@ import * as functions from './functions.js';
       charToPrint = '';
     } else {
       charToPrint = downKey.innerHTML;
+      if (downKey.innerHTML === '&lt;') charToPrint = '<';
+      else if (downKey.innerHTML === '&gt;') charToPrint = '>';
+      else if (downKey.innerHTML === '&amp;') charToPrint = '&';
     }
 
     event.preventDefault();
@@ -56,10 +63,26 @@ import * as functions from './functions.js';
     if (code !== 'CapsLock') {
       const downKey = document.querySelector(`.keyboard__key[data-key="${code}"]`);
       if (downKey === null) return;
-      downKey.classList.remove('key_active');
+      downKey.classList.remove('key_active', 'key_active_color');
 
       if (key === 'Shift') Keyboard.shift(capsLockPressed, 'buttonup');
     }
+  });
+
+  keyboardKeys.forEach((element) => {
+    element.addEventListener('mouseover', (event) => {
+      const { target } = event;
+      const keyData = target.dataset.key;
+
+      if (keyData !== 'CapsLock') target.classList.add('key_active_color');
+    });
+
+    element.addEventListener('mouseout', (event) => {
+      const { target } = event;
+      const keyData = target.dataset.key;
+
+      if (keyData !== 'CapsLock') target.classList.remove('key_active', 'key_active_color');
+    });
   });
 
   const mouseHandler = (event, eventName) => {
